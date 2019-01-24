@@ -12,25 +12,25 @@ import java.io.Serializable;
  * @author Pauessa
  */
 public class Coberturas implements Serializable{
-    private boolean oftamologia;
+    private boolean oftalmologia;
     private boolean dental;
     private boolean fecundacionInVitro;
 
     public Coberturas() {
     }
 
-    public Coberturas(boolean oftamologia, boolean dental, boolean fecundacionInVitro) {
-        this.oftamologia = oftamologia;
+    public Coberturas(boolean oftalmologia, boolean dental, boolean fecundacionInVitro) {
+        this.oftalmologia = oftalmologia;
         this.dental = dental;
         this.fecundacionInVitro = fecundacionInVitro;
     }
 
-    public boolean isOftamologia() {
-        return oftamologia;
+    public boolean isOftalmologia() {
+        return oftalmologia;
     }
 
-    public void setOftamologia(boolean oftamologia) {
-        this.oftamologia = oftamologia;
+    public void setOftalmologia(boolean oftalmologia) {
+        this.oftalmologia = oftalmologia;
     }
 
     public boolean isDental() {
@@ -48,7 +48,7 @@ public class Coberturas implements Serializable{
     public void setFecundacionInVitro(boolean fecundacionInVitro) {
         this.fecundacionInVitro = fecundacionInVitro;
     }
-    
+
    
     
     

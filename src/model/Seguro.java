@@ -47,6 +47,8 @@ public class Seguro implements Serializable{
         this.fechaCreacion = fechaCreacion;
     }
 
+    
+
     public int getIdSeguro() {
         return idSeguro;
     }

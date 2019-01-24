@@ -6,7 +6,7 @@
         <id name="idAsistenciaMedica" column="IdAsistenciaMedica" type="integer">
             <generator class="increment"/>
         </id>
-        <many-to-one name="seguro" >
+        <many-to-one name="seguro" class="model.Seguro" fetch="select" >
             <column name="IdSeguro"/>
         </many-to-one>
         <property name="breveDescripcion" column="breveDescripcion" type="string" />

@@ -6,15 +6,16 @@
 package app;
 
 import java.math.BigDecimal;
+import java.text.SimpleDateFormat;
 import java.util.Calendar;
+import java.util.Date;
 import java.util.HashSet;
-import java.util.Locale;
 import java.util.Set;
 import model.AsistenciaMedica;
+import model.Seguro;
 import model.Coberturas;
 import model.Enfermedades;
 import model.Nif;
-import model.Seguro;
 import model.Sexo;
 import model.TipoAsistencia;
 import org.hibernate.Session;
@@ -49,7 +50,7 @@ public class Main {
         session.beginTransaction();
 
         //GUARDAR OBJETO
-        session.save(am);
+        session.save(s);
 
         //session.saveOrUpdate(profesor);
         //CERRAR CONEXION
